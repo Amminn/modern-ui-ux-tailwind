@@ -1,5 +1,6 @@
 import styles from '../styles'
 import { discount, robot } from '../assets'
+import GetStarted from './GetStarted'
 
 function Hero() {
   return (
@@ -22,10 +23,12 @@ function Hero() {
           Payment Method.
           </h1>
           <div className="ss:flex hidden md:mr-4 mr-0">
-            {/* <GetStarted /> */}
+            <GetStarted />
           </div>
         </div>
       </div>
+
+      {/* <h1 className='font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100px] leading-[75px]'></h1> */}
     </section>
   )
 }
